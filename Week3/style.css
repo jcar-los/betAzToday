@@ -1,0 +1,52 @@
+/* style.css */
+
+body {background-color: rgb(164, 4, 4);
+    font-family: sans-serif;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    background-color: #002D72; /* Example: Dark blue */
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    color: rgb(224, 16, 30) !important;
+  }
+  
+  .navbar-nav .nav-link {
+    color: rgb(17, 5, 5) !important;
+  }
+  
+  /* Player Cards */
+  .card {
+    border: none; /* Remove default card border */
+    box-shadow: 0 4px 8px rgba(142, 1, 1, 0.1); /* Add a subtle shadow */
+    transition: transform 0.4s; /* Add a hover effect */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); 
+  }
+  
+  .card-img-top {
+    height: 200px; 
+    object-fit: cover; /* Ensure images fit nicely */
+  }
+  
+  /* Form Styling */
+  .form-control {
+    border-radius: 0; /* Optional: For a flatter look */
+  }
+  
+  .btn-primary {
+    background-color: #002D72;
+    border: none; 
+  }
+  
+  /* Responsive Design - Adjust breakpoints as needed */
+  @media (max-width: 768px) { 
+    .card {
+      margin-bottom: 20px;
+    }
+  }

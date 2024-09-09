@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js" defer></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"></nav>
+        <a class="navbar-brand" href="#">Football Team</a>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="BetAzToday.html">Home</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="BetAzToday2.html">Add Player</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container mt-4">
+        <h1 class="text-center">Add New Player</h1>
+
+        <form>
+            <div class="form-group">
+                <label for="playerName">Player Name:</label>
+                <input type="text" class="form-control" id="playerName" required>
+            </div>
+            <div class="form-group">
+                <label for="playerPosition">Position:</label>
+                <select class="form-control" id="playerPosition">
+                    <option value="QB">Quarterback</option>
+                    <option value="RB">Running Back</option>
+                    </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Add Player</button>
+        </form>
+    </div>
+    
+
+
+    
+
+
+
+
+</body>
+</html>
